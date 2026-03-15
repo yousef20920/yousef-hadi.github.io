@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Yousef Hadi – Personal Website" />
+    <title>Yousef Hadi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header id="header">
+      <nav class="navbar">
+        <a href="#hero" class="nav-logo">YH</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="hero-content">
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 class="hero-name">Yousef Hadi</h1>
+          <p class="hero-tagline">Software Developer &amp; Problem Solver</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Welcome to my corner of the web! I'm a passionate software
+                developer who loves crafting clean, efficient, and user-friendly
+                applications. I enjoy turning complex problems into simple,
+                elegant solutions.
+              </p>
+              <p>
+                When I'm not coding, you can find me exploring new technologies,
+                contributing to open-source projects, or enjoying a good book.
+              </p>
+              <a href="#contact" class="btn btn-primary">Let's Connect</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon">&#128187;</div>
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML5 &amp; CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Responsive Design</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">&#9881;</div>
+              <h3>Backend</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>RESTful APIs</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">&#128196;</div>
+              <h3>Tools &amp; More</h3>
+              <ul>
+                <li>Git &amp; GitHub</li>
+                <li>Linux / CLI</li>
+                <li>Agile / Scrum</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-header">
+                <span class="project-icon">&#127760;</span>
+                <h3>Personal Website</h3>
+              </div>
+              <p>
+                A clean, responsive personal portfolio website built with pure
+                HTML, CSS, and JavaScript — the site you are looking at right
+                now!
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a
+                href="https://github.com/yousef20920/yousef-hadi.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                >View Source &#8599;</a
+              >
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <span class="project-icon">&#128640;</span>
+                <h3>Coming Soon</h3>
+              </div>
+              <p>
+                More projects are on the way. Stay tuned for exciting new
+                work!
+              </p>
+              <div class="project-tags">
+                <span class="tag">In Progress</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="contact-intro">
+            Have a question, a project idea, or just want to say hi? My inbox is
+            always open.
+          </p>
+          <div class="contact-links">
+            <a
+              href="mailto:yousef@example.com"
+              class="contact-card"
+            >
+              <span class="contact-icon">&#9993;</span>
+              <span>Email Me</span>
+            </a>
+            <a
+              href="https://github.com/yousef20920"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+            >
+              <span class="contact-icon">&#128279;</span>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Yousef Hadi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
